@@ -7,47 +7,48 @@ define([],
 			//The web map id
 			webmaps: [
 			{
-				id: "04744b7ad124458489ea821da3129352",
-				title: "",
+				id: "5c06cb10de4c491d88be7aea880c72ce",
+				title: "Reference Map",
 				// If your map has time properties, choose to show a single time instance instead of the time interval saved with the web map.
 				showSingleTimeInstance: false
 			},{
-				id: "d0f1c5ae11d24c778d597f8bbddcf85f",
-				title: "",
+				id: "05bea6c02c124a3f9bf4492926dd9a07",
+				title: "Wayne Abbey-Detail Map",
 				// If your map has time properties, choose to show a single time instance instead of the time interval saved with the web map.
 				showSingleTimeInstance: false
 			},
 			{
-				id: "bb5a3da962ac4040b2f52f5869fddbd8",
-				title: "",
+				id: "9b68eea67a764dccb7a5a16e35ea634a",
+				title: "The Albano Family-Detail Map",
 				// If your map has time properties, choose to show a single time instance instead of the time interval saved with the web map.
 				showSingleTimeInstance: false
-			}
+			},
 			// To add additional maps to the template, uncomment the below section for
 			// each map you would like to add. Webmap titles from ArcGIS Online will
 			// be used unless you fill in title attribute.
-			//, {
+			{
 			//
-			//	id: "739db23c3f674005a405c68e337f5011",
-			//	title: "",
+				id: "fb4b105e4f684f4b81ae9c9329181740",
+				title: "The Cooper Family-Detail Map",
 			//	// If your map has time properties, choose to show a single time instance instead of the time interval saved with the web map.
-			//	showSingleTimeInstance: false
-			//	},{
+				showSingleTimeInstance: false
+			},
+			{
 			//
-			//	id: "739db23c3f674005a405c68e337f5011",
-			//	title: "",
+				id: "a0a6ed907de344979223eaef38ad8d5b",
+				title: "Randy Fisher-Detail Map",
 			//	// If your map has time properties, choose to show a single time instance instead of the time interval saved with the web map.
-			//	showSingleTimeInstance: false
-			//	}
+				showSingleTimeInstance: false
+			}
 			],
 			//Enter a title, if no title is specified, the first webmap's title is used.
-			title: "Add a title here",
+			title: "Richard Raugust Story Map",
 			//Enter a subtitle, if no subtitle is specified, the first webmap's subtitle is used.
-			subtitle: "Add a subtitle here",
+			subtitle: "The Montana Innocence Project",
 			// If false, each tab will have a number on it. If true, the first tab will not have a number and the second tab will start counting at 1.
 			startCountOnSecondTab: false,
 			//Sync maps scale and location
-			syncMaps: true,
+			syncMaps: false,
 			//Display geocoder search widget
 			geocoderWidget: false,
 			// Specify a proxy for custom deployment
