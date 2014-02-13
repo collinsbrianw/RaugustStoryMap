@@ -69,7 +69,9 @@ li{
 }
 
 .region-right{
-	position: relative;
+	width: 300px;
+	right: 25px;
+	position: absolute;
 	float: right;
 }
 
@@ -88,9 +90,10 @@ li{
 
 #branding-wrapper{
 	height: 100%;
-	width: 200px;
+	width: 300px;
+	/*width: 200px;*/
 	float:right;
-	text-align:right;
+	/*text-align:right;*/
 }
 
 #social{
